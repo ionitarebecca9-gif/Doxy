@@ -62,3 +62,7 @@ While functional and accurate, the current architecture has architectural limita
 * **Limitation 3: Layout ignorance**
   * *Issue:* Tesseract OCR extracts raw text but ignores layouts, bold text, graphs, and charts.
   * *Improvement:* Upgrading the pipeline to use multimodal LLMs (passing images directly to the AI)
+
+## How to open
+
+- download archive and double click `ai.bat` from the desktop folder
