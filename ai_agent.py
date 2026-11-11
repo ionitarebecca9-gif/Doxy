@@ -2,7 +2,7 @@ import os
 from groq import Groq
 from database import db 
 
-groq_key = "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" 
+groq_key = os.getenv("GROQ_API_KEY")
 groq_client = Groq(api_key=groq_key)
 
 def read_agent_instructions():
